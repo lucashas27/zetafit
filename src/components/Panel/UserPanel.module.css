@@ -1,0 +1,24 @@
+.panel {
+  background-color: var(--dark-primary);
+  position: absolute;
+  width: 12rem;
+  height: 100%;
+  display: flex;
+  color: var(--primary-color);
+  text-align: center;
+
+
+}
+.panel ul li {
+  list-style: none;
+  padding-bottom: 20px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  /* justify-content: space-around; */
+  /* align-items: flex-start; */}
+
+  .panel ul li a {
+    text-decoration: none;
+    color: var(--primary);
+  }
