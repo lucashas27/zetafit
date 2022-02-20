@@ -1,14 +1,12 @@
 .panel {
   background-color: var(--dark-primary);
-  position: absolute;
-  width: 12rem;
-  height: 100%;
+  position: fixed;
+  width: 10rem;
+  height: 100vh;
   display: flex;
   color: var(--primary-color);
-  text-align: center;
-
-
 }
+
 .panel ul li {
   list-style: none;
   padding-bottom: 20px;

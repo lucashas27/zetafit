@@ -5,7 +5,7 @@ import styles from './MainPage.module.css'
 const MainPage = () => {
   return (
   <div className={styles.indexContainer}>
-    <UserPanel />
+    {/* <UserPanel /> */}
   </div>
     );
 };
