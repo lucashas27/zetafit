@@ -8,7 +8,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Header />
-      <UserPanel />
+      {/* <UserPanel /> */}
       <Component {...pageProps} />
     </>
   )

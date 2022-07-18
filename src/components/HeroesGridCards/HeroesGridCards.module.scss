@@ -1,0 +1,10 @@
+.wrapper {
+  @apply py-48 border-8 text-white text-2xl w-64 h-16;
+  // @apply  flex flex-row place-items-center;
+  @apply border-black bg-white bg-card-primary border-black;
+  @apply align-top justify-start
+}
+
+.description {
+  @apply text-xs
+}

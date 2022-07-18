@@ -1,0 +1,14 @@
+.heroCard {
+  margin-left: 18rem;
+}
+
+.description {
+  @apply mt-3;
+}
+
+.favoriteButton {
+  @apply ml-9;
+  @apply text-lg ;
+  color: red;
+  width: 120px;
+}

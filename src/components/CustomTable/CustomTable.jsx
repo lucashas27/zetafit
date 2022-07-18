@@ -10,7 +10,9 @@ const CustomTable = ({data, title, columns, localization}) => {
           columns={columns}
           data={data}
           title={title}
-          localization={localization}
+          dateSetting={{
+            locale: {localization}}
+          }
         />
       </div>
   )

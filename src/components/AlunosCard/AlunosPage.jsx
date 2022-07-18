@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styles from './AlunosPage.module.scss'
 import api from '../../../services/api'
-import AlunosCard from './Card/AlunosCard'
 import CustomTable from '../CustomTable/CustomTable'
 
 const AlunosPage = () => {
@@ -19,11 +18,11 @@ const AlunosPage = () => {
       { title: 'Plano', field: 'userPlano' }
     ]
 
-    const getValidUser = (data) => {
-      const isUserActive = usuario => usuario.isActive;
-      const validUsers = data.filter(isUserActive);
-        return validUsers
-    }
+  const getValidUser = (data) => {
+    const isUserActive = usuario => usuario.isActive;
+    const validUsers = data.filter(isUserActive);
+      return validUsers
+  }
 
   return (
     <div className={styles.tableContainer}>
